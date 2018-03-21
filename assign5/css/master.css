@@ -1,0 +1,116 @@
+body{
+  margin: 0;
+  text-align: center;
+  background: url(./background.jpg) no-repeat center center fixed;
+  background-size: cover;
+}
+h1, h2{
+  font-family: Helvetica;
+  color: silver;
+}
+a{
+  display: inline-block;
+}
+.back{
+  background-color: indianred;
+  color: white;
+  font-family: Helvetica;
+  font-size: 24px;
+  padding: 10px;
+  margin: 10px;
+  text-decoration: none;
+  font-weight: bold;
+  margin-bottom: 50px;
+}
+.back:hover{
+  background-color: darkred;
+  color: white;
+}
+.source{
+  background-color: khaki;
+  font-family: Helvetica;
+  color: black;
+  font-size: 24px;
+  padding: 10px;
+  margin: 10px;
+  text-decoration: none;
+  font-weight: bold;
+  margin-bottom: 50px;
+}
+.source:hover{
+  background-color: gold;
+}
+.link{
+  background-color: silver;
+  color: black;
+  font-weight: bold;
+  font-family: Helvetica;
+  font-size: 24px;
+  padding: 10px;
+  margin: 10px;
+  text-decoration: none;
+  border: none;
+  border-radius: 100%;
+  width: 250px;
+  padding: 110px 0;
+}
+.link:hover{
+  background-color: lightgreen;
+}
+.form{
+  background-color: silver;
+  display: inline-block;
+  padding: 50px;
+}
+#forminfo{
+  color: black;
+}
+.form input[type=text]{
+  font-family: Helvetica;
+  font-size: 25px;
+  outline: none;
+  border: solid 2px ;
+}
+.form input[type=submit]{
+  font-family: Helvetica;
+  font-size: 20px;
+  padding: 5px 0;
+  background: none;
+  outline: none;
+  border: solid 2px white;
+  width: 40%;
+  font-weight: bold;
+}
+.form input[type=submit]:hover{
+  background-color: lightgreen;
+  cursor:pointer;
+}
+.text{
+  margin-top: 25px;
+  display: inline-block;
+  font-family: Helvetica;
+  font-size: 30px;
+  font-weight: bold;
+  color: lightgreen;
+}
+.error{
+  color: red;
+  margin-bottom: 10px;
+}
+.clear{
+  font-family: Helvetica;
+  font-size: 20px;
+  padding: 5px 0;
+  background: none;
+  outline: none;
+  border: solid 2px white;
+  width: 50%;
+  font-weight: bold;
+  text-decoration: none;
+  color: black;
+  margin-top: 5px;
+  display: inline-block;
+}
+.clear:hover{
+  background-color: khaki;
+}

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Assignment 3</title>
+    <link rel="stylesheet" href="./css/pizza.css">
+  </head>
+  <body>
+    <h1>Order Some `Za<br>From Dakota's Pizzaria!</h1><br>
+    <form class="form" action="pizza.php" method="get">
+      <div class="section" id="section1">
+        <span class="option">What size pizza do you want?</span><br>
+        <select name="size">
+          <option value="small">Small</option>
+          <option value="medium">Medium</option>
+          <option value="Large">Large</option>
+        </select>
+      </div>
+      <div class="section" id="section2">
+        <span class="option">How do you want to get your pizza?</span><br>
+        <input type="radio" name="trans" value="pickup"><span class="option">Pickup</span>
+        <input type="radio" name="trans" value="delivery"><span class="option">Delivery</span>
+      </div><br>
+      <div class="section" id="section3">
+        <span class="option">Personal Information</span><br>
+        <input type="text" name="name" placeholder="Your name"><br>
+        <input type="text" name="address" placeholder="Your address"><br>
+        <input type="text" name="phone" placeholder="Your phone number"><br>
+
+      </div>
+      <div class="section" id="section4">
+        <span class="option">What do you want on your pizza?</span><br>
+        <input type="checkbox" name="topping1" value="cheese"><span class="option">Cheese</span>
+        <input type="checkbox" name="topping2" value="sausage"><span class="option">Sausage</span><br>
+        <input type="checkbox" name="topping3" value="pepperoni"><span class="option">Pepperoni</span>
+        <input type="checkbox" name="topping4" value="mushrooms"><span class="option">Mushrooms</span><br>
+        <input type="checkbox" name="topping5" value="peppers"><span class="option">Peppers</span>
+        <input type="checkbox" name="topping6" value="olives"><span class="option">Olives</span>
+      </div>
+      <div class="section" id="section5">
+        <textarea name="instructions" rows="5" cols="35" placeholder="Enter specific instructions here"></textarea>
+      </div><br>
+      <input type="submit" value="Submit Order">
+      <a href="./">Go Back</a>
+    </form>
+  </body>
+</html>

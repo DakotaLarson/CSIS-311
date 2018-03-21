@@ -1,0 +1,98 @@
+body{
+  margin: 0;
+  text-align: center;
+  background: url(./background.png) no-repeat center center fixed;
+  background-size: cover;
+}
+h1, h2{
+  font-family: Helvetica;
+  color: saddlebrown;
+  text-decoration: underline;
+}
+a{
+  display: inline-block;
+}
+.back{
+  color: saddlebrown;
+  font-family: Helvetica;
+  font-size: 24px;
+  padding: 10px;
+  border: 2px solid saddlebrown;
+  margin: 10px;
+  text-decoration: none;
+  font-weight: bold;
+}
+.back:hover{
+  background-color: saddlebrown;
+  color: white;
+}
+.link{
+  color: #C49F66;
+  font-weight: bold;
+  font-family: Helvetica;
+  font-size: 24px;
+  padding: 10px;
+  border: 2px solid #C49F66;
+  margin: 10px;
+  text-decoration: none;
+}
+.link:hover{
+  background-color: #C49F66;
+  color: white;
+}
+.form{
+  margin-top: 20px;
+  background-color: #C49F66;
+  display: inline-block;
+  padding: 20px;
+}
+.title{
+  font-family: Helvetica;
+  font-size: 30px;
+  color: white;
+  font-weight: bold;
+  margin-bottom: 10px;
+  padding-bottom: 5px;
+  display: inline-block;
+}
+input[type=text]{
+  font-family: Helvetica;
+  font-size: 20px;
+  padding: 5px;
+  border: solid 2px white;
+  background-color: rgba(139, 69, 19, 0.5);
+  color: white;
+  margin: 5px;
+}
+input[type=text]:focus{
+  background-color: rgb(139, 69, 19);
+  outline: none;
+}
+input[type=submit]{
+  margin: 10px;
+  font-family: Helvetica;
+  font-size: 16px;
+  color: white;
+  background-color: saddlebrown;
+  border: solid 2px white;
+  padding: 5px;
+  font-weight: bold;
+}
+input[type=submit]:hover{
+  color: saddlebrown;
+  background-color: white;
+  cursor: pointer;
+
+}
+.answer{
+  display: inline-block;
+  margin-top: 30px;
+  font-family: Helvetica;
+  font-size: 30px;
+  font-weight: bold;
+  color: crimson;
+}
+.radiotext{
+  font-family: Helvetica;
+  color: white;
+}

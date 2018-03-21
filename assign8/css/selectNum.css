@@ -1,0 +1,28 @@
+body{
+text-align: center;
+background-color: khaki;
+}
+select{
+  margin-bottom: 20px;
+  font-family: Courier;
+  font-size: 20px;
+}
+h1{
+  font-family: Courier;
+}
+span, input[type=submit]{
+  font-family: Courier;
+  font-size: 20px;
+  font-weight: bold;
+}
+a{
+  display: inline-block;
+  margin-top: 20px;
+  font-family: Courier;
+  font-size: 20px;
+  font-weight: bold;
+  color: black;
+  text-decoration: none;
+  border: solid;
+  padding: 5px;
+}

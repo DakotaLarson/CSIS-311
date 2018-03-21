@@ -1,0 +1,79 @@
+body{
+  margin: 0;
+  text-align: center;
+  background: url(./background.jpg) no-repeat center center fixed;
+  background-size: cover;
+}
+h1, h2{
+  font-family: Helvetica;
+}
+a{
+  display: inline-block;
+}
+.back{
+  background-color: indianred;
+  color: white;
+  font-family: Helvetica;
+  font-size: 24px;
+  padding: 10px;
+  margin: 10px;
+  text-decoration: none;
+  font-weight: bold;
+}
+.back:hover{
+  background-color: darkred;
+  color: white;
+}
+.link{
+  background-color: forestgreen;
+  color: white;
+  font-weight: bold;
+  font-family: Helvetica;
+  font-size: 24px;
+  padding: 10px;
+  margin: 10px;
+  text-decoration: none;
+  border: none;
+}
+.link:hover{
+  background-color: darkgreen;
+  color: white;
+}
+.form{
+  display: inline-block;
+  padding: 20px;
+  background-color: chocolate;
+}
+
+.form input[type=text]{
+  font-family: Helvetica;
+  font-size: 20px;
+  border: solid 2px;
+  outline: none;
+  padding: 3px;
+  margin: 10px;
+}
+.form button{
+  font-family: Helvetica;
+  font-size: 20px;
+  font-weight: bold;
+  background-color: forestgreen;
+  border: none;
+}
+.form button:hover{
+  background-color: darkgreen;
+}
+.info{
+  font-family: Helvetica;
+  font-size: 30px;
+  font-weight: bold;
+  display: inline-block;
+  margin-top: 30px;
+}
+td.monthdata{
+  text-align: left;
+}
+td{
+  vertical-align: top;
+  padding: 10px;
+}

@@ -1,0 +1,32 @@
+body{
+  text-align: center;
+  font-family: Helvetica;
+  background-color: aqua;
+}
+a{
+  color: black;
+  border: solid 2px;
+  padding: 5px;
+  text-decoration: none;
+  display: inline-block;
+  margin: 10px 0;
+}
+input[type=submit]{
+  background-color: orange;
+  border: solid 2px red;
+  font-size: 20px;
+  outline: none;
+  margin: 10px 0;
+}
+input[type=submit]:hover{
+  cursor: pointer;
+}
+input[type=text]{
+  font-size: 18px;
+  outline: none;
+}
+span{
+  display: inline-block;
+  margin: 5px;
+  font-weight: bold;
+}

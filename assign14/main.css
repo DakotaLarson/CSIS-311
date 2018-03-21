@@ -1,0 +1,23 @@
+body{
+  background: indianred;
+  text-align: center;
+
+}
+form{
+  padding: 20px;
+  background-color: darkgreen;
+  border-radius: 10px;
+  display: inline-block;
+
+}
+input{
+  font-size: 20px;
+  padding: 5px;
+
+}
+span{
+  font-size: 18px;
+}
+#text{
+  font-size: 35px;
+}

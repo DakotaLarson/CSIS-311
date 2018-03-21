@@ -1,0 +1,36 @@
+body{
+  text-align: center;
+  background-color: firebrick;
+}
+h1{
+  color: white;
+  font-family: Helvetica;
+}
+input{
+  font-family: Helvetica;
+  font-size: 25px;
+  padding: 5px;
+  margin: 5px;
+  outline: none;
+  border: solid 2px;
+}
+.form{
+  padding: 30px;
+  border: solid 3px black;
+  border-radius: 10px;
+  display: inline-block;
+  margin-top: 50px;
+}
+#word{
+  font-family: Helvetica;
+  font-size: 25px;
+  color: white;
+  display: inline-block;
+  margin-bottom: 10px;
+}
+#topText{
+  font-family: Helvetica;
+  font-size: 35px;
+  display: inline-block;
+  margin-top: 20px;
+}

@@ -1,0 +1,54 @@
+body{
+  margin: 0;
+  text-align: center;
+  background-color: green;
+}
+h1, h3, h2, span, input{
+  font-family: Helvetica;
+}
+span, input{
+  font-size: 20px;
+}
+span{
+  display: inline-block;
+  width: 150px;
+  text-align: right;
+}
+input{
+  border: solid 1px black;
+  outline: none;
+  margin: 10px 0;
+  padding: 5px 10px;
+}
+table{
+  border: solid 1px;
+  display: inline-block;
+  font-size: 20px;
+  font-family: Helvetica;
+}
+td{
+  width: 20px;
+  margin: 0;
+  border: solid 1px;
+}
+td{
+  background-color: yellow;
+}
+.index{
+  background-color: orange;
+}
+th{
+  background-color: indianred;
+}
+a{
+  text-decoration: none;
+  color: black;
+  font-family: Helvetica;
+  font-size: 20px;
+  padding: 5px;
+  border: solid 1px black;
+}
+a:hover{
+  color: white;
+  background-color: black;
+}

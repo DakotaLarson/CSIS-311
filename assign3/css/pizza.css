@@ -1,0 +1,96 @@
+body{
+  margin: 0;
+  text-align: center;
+  background: url(./pizza.jpg) no-repeat center center fixed;
+  background-size: cover;
+}
+h1{
+  color: aqua;
+  font-family: Helvetica;
+  font-weight: bold;
+  font-size: 50px;
+}
+.form{
+  display: inline-block;
+  background-color: rgb(250, 250, 200);
+  padding: 30px;
+  width:725px;
+}
+select{
+  font-size: 20px;
+}
+.section{
+  display: inline-block;
+  border:1px solid black;
+  padding: 10px;
+}
+.option{
+  font-family: Helvetica;
+  font-size: 20px;
+}
+#section1{
+  float:left;
+  margin-right: 20px;
+}
+#section2{
+  float: right;
+  margin-left: 20px;
+}
+#section3{
+  margin:20px 0;
+  min-width: 90%;
+}
+input[type=text]{
+  margin:10px;
+  font-family:Helvetica;
+  font-size: 20px;
+  width: 80%;
+}
+textarea{
+  font-family: Helvetica;
+  font-size: 16px;
+  resize: none;
+}
+#section4{
+  float: left;
+}
+#section5{
+  float: right;
+}
+input[type=submit]{
+  width: 80%;
+  background-color: lightgreen;
+  border: solid 2px black;
+  margin-top: 20px;
+  color: black;
+  font-family: Helvetica;
+  font-size: 20px;
+  padding: 10px;
+  border-radius: 5px;
+}
+input[type=submit]:hover{
+  color: white;
+  background-color: green;
+}
+a{
+  width: 10%;
+  background-color: indianred;
+  border: solid 2px black;
+  margin-top: 20px;
+  color: white;
+  font-family: Helvetica;
+  font-size: 20px;
+  padding: 10px;
+  border-radius: 5px;
+  text-decoration: none;
+  display: inline-block;
+}
+a:hover{
+  background-color: red;
+}
+.finaltext{
+  font-family: Helvetica;
+  font-size: 20px;
+  color: black;
+  font-weight: 800;
+}
